@@ -1,0 +1,44 @@
+
+** AML Framework **
+
+ Copyright 2019 Reza Soltani
+ Licensed under the Apache License, Version 2.0
+
+ Implementation of 'A new algorithm for money laundering detection based on structural similarity' paper.
+
+ Reza Soltani, Uyen Trang Nguyen, Yang Yang, Mohammad Faghani, Alaa Yagoub and Aijun An, "A new algorithm for money laundering detection based on structural similarity," 2016 IEEE 7th Annual Ubiquitous Computing, Electronics & Mobile Communication Conference (UEMCON), New York, NY, 2016, pp. 1-7.
+ doi: 10.1109/UEMCON.2016.7777919
+ keywords: {financial data processing;globalisation;money laundering detection;structural similarity;financial transactions;global market;money laundering transactions;financial data;ML activities;ML groups;Receivers;Topology;Clustering methods;Government;Clustering algorithms;Network topology;Money laundering;money laundering detection;graph theory;structural similarity},
+ URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7777919&isnumber=7777798
+
+
+** Execution **
+
+This is a Java Maven Project
+Tested on JavaSE 1.7
+Running App.Java Main Method generates simulation data, read the simulated data and performs the algorithm.
+
+
+** Requirement **
+
+This project relies on an embedded version of Neo4j Graph Database
+
+
+** List of Important Files **
+
+- LICENSE < license file
+- README < this file
+
+- App.Java < Main class
+- DataGenerator.java < Data generation class
+- Input.java < Data retrieval class
+- Util.java < Utility class
+
+- FinancialNode.java < Node Class
+- FinancialTransaction.java < Transaction class
+
+- nodes.txt < Input list of accounts
+- transactions.txt < Input list of transactions
+
+- output_summary.txt < summary log of execution
+- output.txt < output log of execution

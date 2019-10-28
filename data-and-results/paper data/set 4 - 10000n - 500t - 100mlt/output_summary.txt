@@ -1,0 +1,20 @@
+
+------------
+Report ..
+Total number of nodes: 10000
+Total number of transactions: 6795
+Total number of matched transactions: 2881
+Total number of matched transactions nodes: 516
+Total number of balanced scored nodes: 318
+Total number of dense pairs: 439
+Total number of ML groups: 85
+ML detection of group rating: 85 / 100
+ML detection of accounts rating: 303 / 318
+Timeframe ..
+Total time to find matching pair (ms): 482310.0
+Total time to generate graph (ms): 44838.0
+Total time to calculate balance score (ms): 156.0
+Total time to Similar Nodes (SHRINK) (ms): 826231.0
+Total time to identity groups (ms): 1443.0
+Total time of program with Data generation (ms): 1355581.0
+Total time of program without Data generation (ms): 1355369.0
